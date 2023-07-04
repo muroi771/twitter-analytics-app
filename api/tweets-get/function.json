@@ -25,7 +25,6 @@
       "sqlQuery": "SELECT c.data.TweetText, c.data.TweetedBy, c.data.CreatedAtIso, c.data.TweetId, c.sentiment, c.sentences from c OFFSET 0 LIMIT 100",
       "PartitionKey": "/partitionkey"
     }
-
     
   ]
 }
